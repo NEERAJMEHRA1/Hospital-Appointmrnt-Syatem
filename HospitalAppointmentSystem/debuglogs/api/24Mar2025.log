@@ -1,0 +1,668 @@
+24-03-2025 12:55:41 PM info: Server running at : http://localhost:3000 
+24-03-2025 12:57:46 PM info: Server running at : http://localhost:3000 
+24-03-2025 12:58:27 PM info: Server running at : http://localhost:3000 
+24-03-2025 12:59:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:00:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:00:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:00:37 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:00:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:02:42 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:03:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:03:36 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:03:53 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:04:41 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:04:58 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:05:12 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:05:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:05:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:05:40 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:06:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:06:42 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:07:36 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:08:13 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:08:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:08:21 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:08:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:08:52 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:09:03 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:09:19 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:09:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:10:03 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:10:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:11:23 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:11:33 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:11:46 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:12:14 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:12:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:12:51 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:12:54 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:13:04 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:13:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:13:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:13:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:14:34 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:14:40 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:14:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:15:13 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:15:54 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:16:01 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:16:13 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:16:38 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:16:59 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:17:08 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:17:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:17:38 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:18:00 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:18:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:18:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:19:56 PM info: #####*****userRegister : user register success*****##### 
+24-03-2025 01:21:22 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:21:56 PM info: userLogin : Error==>> res.status(...).send(...).code is not a function 
+24-03-2025 01:21:56 PM error: uncaughtException: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:699:11)
+    at ServerResponse.header (C:\Users\hp\Desktop\HospitalAppointmentSystem\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\hp\Desktop\HospitalAppointmentSystem\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\hp\Desktop\HospitalAppointmentSystem\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\Users\hp\Desktop\HospitalAppointmentSystem\node_modules\express\lib\response.js:162:21)
+    at userLogin (file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/controller.js:148:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  "error": {
+    "code": "ERR_HTTP_HEADERS_SENT"
+  },
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js:162:21)\n    at userLogin (file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/controller.js:148:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "exception": true,
+  "date": "Mon Mar 24 2025 13:21:56 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 14152,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 68427776,
+      "heapTotal": 29626368,
+      "heapUsed": 27665752,
+      "external": 21961956,
+      "arrayBuffers": 18321277
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 2894.656
+  },
+  "trace": [
+    {
+      "column": 11,
+      "file": "node:_http_outgoing",
+      "function": "ServerResponse.setHeader",
+      "line": 699,
+      "method": "setHeader",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.header",
+      "line": 794,
+      "method": "header",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 174,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.json",
+      "line": 278,
+      "method": "json",
+      "native": false
+    },
+    {
+      "column": 21,
+      "file": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\node_modules\\express\\lib\\response.js",
+      "function": "ServerResponse.send",
+      "line": 162,
+      "method": "send",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/controller.js",
+      "function": "userLogin",
+      "line": 148,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  ]
+}
+24-03-2025 01:22:53 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:23:10 PM info: #####*****userLogin : user login success*****##### 
+24-03-2025 01:24:15 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:24:35 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:24:41 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:24:55 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:26:40 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:27:09 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:27:30 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:28:03 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:28:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:29:48 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:30:14 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:30:18 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:30:23 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:30:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:30:46 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:31:19 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:31:46 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:31:54 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:32:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:32:22 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:33:43 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:33:50 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:34:15 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:35:04 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:35:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:35:41 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:35:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:35:51 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:35:58 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:36:02 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:36:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:36:24 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:36:35 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:38:19 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:38:43 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:38:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:39:05 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:39:21 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:39:36 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:39:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:39:56 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:40:11 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:40:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:40:50 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:41:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:42:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:42:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:43:30 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:43:54 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:45:35 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:45:53 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:46:19 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:46:28 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:46:38 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:46:43 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:47:00 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:47:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:47:42 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:48:59 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:49:30 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:49:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:49:58 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:50:23 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:50:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:50:45 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:51:15 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:51:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:51:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:51:56 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:52:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:52:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:52:33 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:52:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:52:54 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:53:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:55:27 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:56:30 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:56:46 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:56:50 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:57:59 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:58:02 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:58:11 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:58:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:59:14 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:59:27 PM info: Server running at : http://localhost:3000 
+24-03-2025 01:59:48 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:11 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:21 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:36 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:00:55 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:01:05 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:01:36 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:01:51 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:02:03 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:02:11 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:02:51 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:03:28 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:03:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:04:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:04:11 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:04:21 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:04:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:05:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:05:39 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:06:35 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:19:38 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:19:44 PM info: #####*****userRegister : user register success*****##### 
+24-03-2025 02:23:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:23:37 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:23:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:23:51 PM error: bookAppointment : Error===>>> language is not defined 
+24-03-2025 02:24:09 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:25:10 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:25:12 PM error: bookAppointment : Error===>>> checkAppointment is not defined 
+24-03-2025 02:25:40 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:25:44 PM error: bookAppointment : Error===>>> Cast to date failed for value "Invalid Date" (type Date) at path "appointmentDate" for model "Appointment" 
+24-03-2025 02:25:52 PM error: bookAppointment : Error===>>> Cast to date failed for value "Invalid Date" (type Date) at path "appointmentDate" for model "Appointment" 
+24-03-2025 02:26:10 PM error: bookAppointment : Error===>>> Cast to date failed for value "Invalid Date" (type Date) at path "appointmentDate" for model "Appointment" 
+24-03-2025 02:27:06 PM error: bookAppointment : Error===>>> Appointment validation failed: status: `booked` is not a valid enum value for path `status`. 
+24-03-2025 02:28:01 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:28:02 PM info: #####*****bookAppointment : user register success*****##### 
+24-03-2025 02:28:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:28:42 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:28:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:29:06 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:29:18 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:29:39 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:29:45 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:30:00 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:30:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:30:45 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:30:49 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:31:01 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:31:04 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:31:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:31:39 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:31:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:31:55 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:32:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:32:38 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:32:50 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:33:04 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:33:24 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:33:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:34:01 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:34:34 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:34:37 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:34:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:35:40 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:36:07 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:36:12 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:36:23 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:36:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:36:59 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:37:06 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:37:20 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:37:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:37:58 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:38:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:38:26 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:39:20 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:39:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:39:29 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:39:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:40:21 PM error: uncaughtException: cancelAppointment is not defined
+ReferenceError: cancelAppointment is not defined
+    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:10:51
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: cancelAppointment is not defined\n    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:10:51\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Mon Mar 24 2025 14:40:21 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17276,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 83582976,
+      "heapTotal": 61345792,
+      "heapUsed": 32739424,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 7599.265
+  },
+  "trace": [
+    {
+      "column": 51,
+      "file": "file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+24-03-2025 02:40:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:40:42 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:40:58 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:41:10 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:41:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:42:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:42:19 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:42:38 PM info: #####*****bookAppointment : user register success*****##### 
+24-03-2025 02:42:48 PM info: #####*****bookAppointment : user register success*****##### 
+24-03-2025 02:43:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:45:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:45:31 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:45:32 PM error: cancelAppointment : Error===>>> Appointment validation failed: status: `cancelled` is not a valid enum value for path `status`. 
+24-03-2025 02:45:48 PM error: cancelAppointment : Error===>>> Appointment validation failed: status: `cancelled` is not a valid enum value for path `status`. 
+24-03-2025 02:45:48 PM error: cancelAppointment : Error===>>> Appointment validation failed: status: `cancelled` is not a valid enum value for path `status`. 
+24-03-2025 02:46:19 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:46:19 PM error: cancelAppointment : Error===>>> mongoose is not defined 
+24-03-2025 02:46:37 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:46:43 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:46:43 PM info: #####*****cancelAppointment : success*****##### 
+24-03-2025 02:47:11 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:47:17 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:47:32 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:47:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:47:59 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:49:42 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:49:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:49:57 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:50:00 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:50:16 PM error: uncaughtException: getAppointments is not defined
+ReferenceError: getAppointments is not defined
+    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:12:49
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getAppointments is not defined\n    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:12:49\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Mon Mar 24 2025 14:50:16 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17692,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 83587072,
+      "heapTotal": 61345792,
+      "heapUsed": 32752560,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 8194.14
+  },
+  "trace": [
+    {
+      "column": 49,
+      "file": "file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+24-03-2025 02:50:22 PM error: uncaughtException: getAppointments is not defined
+ReferenceError: getAppointments is not defined
+    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:12:48
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getAppointments is not defined\n    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:12:48\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Mon Mar 24 2025 14:50:22 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 11820,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 84086784,
+      "heapTotal": 61345792,
+      "heapUsed": 33172632,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 8200.078
+  },
+  "trace": [
+    {
+      "column": 48,
+      "file": "file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+24-03-2025 02:51:12 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:51:28 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:51:47 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:51:51 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:52:02 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:52:06 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:52:53 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:53:39 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:54:09 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:54:38 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:55:45 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:56:09 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:56:20 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:56:25 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:56:44 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:57:02 PM error: uncaughtException: getDocterAppointments is not defined
+ReferenceError: getDocterAppointments is not defined
+    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:14:54
+    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  "error": {},
+  "stack": "ReferenceError: getDocterAppointments is not defined\n    at file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js:14:54\n    at ModuleJob.run (node:internal/modules/esm/module_job:268:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:543:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Mon Mar 24 2025 14:57:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19568,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.11.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\hp\\Desktop\\HospitalAppointmentSystem\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 84447232,
+      "heapTotal": 61345792,
+      "heapUsed": 32756896,
+      "external": 21930834,
+      "arrayBuffers": 18311802
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 8599.984
+  },
+  "trace": [
+    {
+      "column": 54,
+      "file": "file:///C:/Users/hp/Desktop/HospitalAppointmentSystem/src/api/booking/index.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 268,
+      "method": "run",
+      "native": false
+    },
+    {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 543,
+      "method": "__proto__",
+      "native": false
+    },
+    {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+24-03-2025 02:57:06 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:57:16 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:57:22 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:57:37 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:57:40 PM info: Server running at : http://localhost:3000 
+24-03-2025 02:57:50 PM info: Server running at : http://localhost:3000 

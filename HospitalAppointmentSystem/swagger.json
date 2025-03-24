@@ -1,0 +1,542 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "version": "1.0.0",
+        "title": "Hospital-Appontment-System",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "email": ""
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000"
+        }
+    ],
+    "security": [
+        {
+            "bearerAuth": []
+        }
+    ],
+    "paths": {
+        "/users/userRegister": {
+            "post": {
+                "tags": [
+                    "USER"
+                ],
+                "summary": "Method used to register",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "contentType"
+                                ],
+                                "properties": {
+                                    "language": {
+                                        "type": "string",
+                                        "default": "en"
+                                    },
+                                    "role": {
+                                        "type": "number",
+                                        "default": "2-docter || 3-patient"
+                                    },
+                                    "userName": {
+                                        "type": "string",
+                                        "default": "Neeraj Mehra"
+                                    },
+                                    "email": {
+                                        "type": "string",
+                                        "default": "test@gmail.com"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "default": "****"
+                                    },
+                                    "address": {
+                                        "type": "string",
+                                        "default": "Indore MP"
+                                    },
+                                    "countryCode": {
+                                        "type": "string",
+                                        "default": "+91"
+                                    },
+                                    "phoneNumber": {
+                                        "type": "string",
+                                        "default": "91441889**"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/users/userLogin": {
+            "post": {
+                "tags": [
+                    "USER"
+                ],
+                "summary": "Method used login user",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "contentType"
+                                ],
+                                "properties": {
+                                    "language": {
+                                        "type": "string",
+                                        "default": "en"
+                                    },
+                                    "email": {
+                                        "type": "string",
+                                        "default": "test@gmail.com"
+                                    },
+                                    "password": {
+                                        "type": "string",
+                                        "default": "12345678"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/users/getUserDetail": {
+            "get": {
+                "tags": [
+                    "USER"
+                ],
+                "summary": "Method used to get user details by id",
+                "parameters": [
+                    {
+                        "name": "language",
+                        "default": "en",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/users/getPatientDoctorsList": {
+            "post": {
+                "tags": [
+                    "USER"
+                ],
+                "summary": "Method used to get all Patients / Doctors list with filter and paginations",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "contentType"
+                                ],
+                                "properties": {
+                                    "language": {
+                                        "type": "string",
+                                        "default": "en"
+                                    },
+                                    "search": {
+                                        "type": "string",
+                                        "default": "Neeraj Mehra"
+                                    },
+                                    "page": {
+                                        "type": "number",
+                                        "default": 1
+                                    },
+                                    "perPage": {
+                                        "type": "number",
+                                        "default": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/users/getUserList": {
+            "post": {
+                "tags": [
+                    "USER"
+                ],
+                "summary": "Method used to get all Patients / Doctors list in the system",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "contentType"
+                                ],
+                                "properties": {
+                                    "language": {
+                                        "type": "string",
+                                        "default": "en"
+                                    },
+                                    "search": {
+                                        "type": "string",
+                                        "default": "Neeraj Mehra"
+                                    },
+                                    "page": {
+                                        "type": "number",
+                                        "default": 1
+                                    },
+                                    "perPage": {
+                                        "type": "number",
+                                        "default": 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/booking/bookAppointment": {
+            "post": {
+                "tags": [
+                    "BOOKING"
+                ],
+                "summary": "Method used to booked appointment",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "contentType"
+                                ],
+                                "properties": {
+                                    "language": {
+                                        "type": "string",
+                                        "default": "en"
+                                    },
+                                    "doctorId": {
+                                        "type": "string",
+                                        "default": ""
+                                    },
+                                    "appointmentDate": {
+                                        "type": "string",
+                                        "default": "24-03-2025"
+                                    },
+                                    "appointmentTime": {
+                                        "type": "string",
+                                        "default": "12:30"
+                                    },
+                                    "note": {
+                                        "type": "string",
+                                        "default": "ABC"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/booking/cancelAppointment": {
+            "post": {
+                "tags": [
+                    "BOOKING"
+                ],
+                "summary": "Method used to delete/cancel booking",
+                "parameters": [
+                    {
+                        "name": "language",
+                        "default": "en",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "id",
+                        "default": "67e11e9a5bd0cbc45098ae51",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/booking/getAppointmentList": {
+            "get": {
+                "tags": [
+                    "BOOKING"
+                ],
+                "summary": "Method used to get appointment list",
+                "parameters": [
+                    {
+                        "name": "language",
+                        "default": "en",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        },
+        "/booking/getDocterAppointments": {
+            "get": {
+                "tags": [
+                    "BOOKING"
+                ],
+                "summary": "Method used to get docter wise appointment list",
+                "parameters": [
+                    {
+                        "name": "language",
+                        "default": "en",
+                        "in": "query",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "status": {
+                                            "type": "boolean"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        },
+                                        "data": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "unexpected error"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    }
+}
